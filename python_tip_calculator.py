@@ -11,4 +11,5 @@ mini_pers = bil + (bil*pers)/100
 per_split = mini_pers/split
 should_pay = round(per_split, 2)
 #result
-print("Each person should pay " + str(should_pay))
+print(f"Each person should pay {should_pay}")
+# print("Each person should pay " + str(should_pay))
